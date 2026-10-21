@@ -1,0 +1,24 @@
+feature,importance
+categorical__Legs_False,0.1902401779111774
+categorical__GridFins_True,0.1354048111601253
+categorical__Legs_True,0.13447218146135756
+numeric__ReusedCount,0.11791367027163117
+categorical__GridFins_False,0.10742776511332178
+numeric__PayloadMass,0.09587150718075238
+numeric__Block,0.08175497106151758
+numeric__Flights,0.022116222297589267
+categorical__Orbit_ISS,0.020847344656337207
+categorical__LaunchSite_CCAFS SLC 40,0.013659767074781233
+categorical__LaunchSite_KSC LC 39A,0.011239420598395156
+categorical__Orbit_GTO,0.01026985095725146
+categorical__Reused_True,0.00908229004076725
+categorical__LaunchSite_VAFB SLC 4E,0.008859376982739118
+categorical__Orbit_PO,0.00879553605178804
+categorical__Orbit_LEO,0.008209679847620291
+categorical__Reused_False,0.006412733207750582
+categorical__Orbit_MEO,0.006246177935767978
+categorical__Orbit_VLEO,0.0041919304640633155
+categorical__Orbit_SSO,0.003744558171063082
+categorical__Orbit_SO,0.0018341858216789726
+categorical__Orbit_HEO,0.0007269549121624644
+categorical__Orbit_GEO,0.0006788868203614506

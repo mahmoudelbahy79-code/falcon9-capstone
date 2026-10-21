@@ -1,0 +1,337 @@
+{
+  "dataset_rows": 90,
+  "positive": 60,
+  "negative": 30,
+  "date_min": "2010-06-04",
+  "date_max": "2020-11-05",
+  "api_snapshot_rows": 107,
+  "wikipedia_scraped_family_rows_2010_2020": 114,
+  "class_success_rate_pct": 66.66666666666666,
+  "missing_base": {
+    "FlightNumber": 0,
+    "Date": 0,
+    "BoosterVersion": 0,
+    "PayloadMass": 0,
+    "Orbit": 0,
+    "LaunchSite": 0,
+    "Outcome": 0,
+    "Flights": 0,
+    "GridFins": 0,
+    "Reused": 0,
+    "Legs": 0,
+    "LandingPad": 26,
+    "Block": 0,
+    "ReusedCount": 0,
+    "Serial": 0,
+    "Longitude": 0,
+    "Latitude": 0
+  },
+  "sites": [
+    {
+      "LaunchSite": "CCAFS SLC 40",
+      "count": 55,
+      "sum": 33,
+      "mean": 0.6,
+      "success_rate_pct": 60.0
+    },
+    {
+      "LaunchSite": "KSC LC 39A",
+      "count": 22,
+      "sum": 17,
+      "mean": 0.772727,
+      "success_rate_pct": 77.272727
+    },
+    {
+      "LaunchSite": "VAFB SLC 4E",
+      "count": 13,
+      "sum": 10,
+      "mean": 0.769231,
+      "success_rate_pct": 76.923077
+    }
+  ],
+  "years": [
+    {
+      "Year": 2010,
+      "count": 1,
+      "sum": 0,
+      "mean": 0.0,
+      "success_rate_pct": 0.0
+    },
+    {
+      "Year": 2012,
+      "count": 1,
+      "sum": 0,
+      "mean": 0.0,
+      "success_rate_pct": 0.0
+    },
+    {
+      "Year": 2013,
+      "count": 3,
+      "sum": 0,
+      "mean": 0.0,
+      "success_rate_pct": 0.0
+    },
+    {
+      "Year": 2014,
+      "count": 6,
+      "sum": 2,
+      "mean": 0.333333,
+      "success_rate_pct": 33.333333
+    },
+    {
+      "Year": 2015,
+      "count": 6,
+      "sum": 2,
+      "mean": 0.333333,
+      "success_rate_pct": 33.333333
+    },
+    {
+      "Year": 2016,
+      "count": 8,
+      "sum": 5,
+      "mean": 0.625,
+      "success_rate_pct": 62.5
+    },
+    {
+      "Year": 2017,
+      "count": 18,
+      "sum": 15,
+      "mean": 0.833333,
+      "success_rate_pct": 83.333333
+    },
+    {
+      "Year": 2018,
+      "count": 18,
+      "sum": 11,
+      "mean": 0.611111,
+      "success_rate_pct": 61.111111
+    },
+    {
+      "Year": 2019,
+      "count": 10,
+      "sum": 9,
+      "mean": 0.9,
+      "success_rate_pct": 90.0
+    },
+    {
+      "Year": 2020,
+      "count": 19,
+      "sum": 16,
+      "mean": 0.842105,
+      "success_rate_pct": 84.210526
+    }
+  ],
+  "orbits": [
+    {
+      "Orbit": "ES-L1",
+      "count": 1,
+      "sum": 1,
+      "mean": 1.0,
+      "success_rate_pct": 100.0
+    },
+    {
+      "Orbit": "GEO",
+      "count": 1,
+      "sum": 1,
+      "mean": 1.0,
+      "success_rate_pct": 100.0
+    },
+    {
+      "Orbit": "GTO",
+      "count": 27,
+      "sum": 14,
+      "mean": 0.518519,
+      "success_rate_pct": 51.851852
+    },
+    {
+      "Orbit": "HEO",
+      "count": 1,
+      "sum": 1,
+      "mean": 1.0,
+      "success_rate_pct": 100.0
+    },
+    {
+      "Orbit": "ISS",
+      "count": 21,
+      "sum": 13,
+      "mean": 0.619048,
+      "success_rate_pct": 61.904762
+    },
+    {
+      "Orbit": "LEO",
+      "count": 7,
+      "sum": 5,
+      "mean": 0.714286,
+      "success_rate_pct": 71.428571
+    },
+    {
+      "Orbit": "MEO",
+      "count": 3,
+      "sum": 2,
+      "mean": 0.666667,
+      "success_rate_pct": 66.666667
+    },
+    {
+      "Orbit": "PO",
+      "count": 9,
+      "sum": 6,
+      "mean": 0.666667,
+      "success_rate_pct": 66.666667
+    },
+    {
+      "Orbit": "SO",
+      "count": 1,
+      "sum": 0,
+      "mean": 0.0,
+      "success_rate_pct": 0.0
+    },
+    {
+      "Orbit": "SSO",
+      "count": 5,
+      "sum": 5,
+      "mean": 1.0,
+      "success_rate_pct": 100.0
+    },
+    {
+      "Orbit": "VLEO",
+      "count": 14,
+      "sum": 12,
+      "mean": 0.857143,
+      "success_rate_pct": 85.714286
+    }
+  ],
+  "payload_by_class": [
+    {
+      "Class": 0,
+      "count": 30,
+      "mean": 4784.559,
+      "median": 4481.5,
+      "min": 500.0,
+      "max": 15600.0
+    },
+    {
+      "Class": 1,
+      "count": 60,
+      "mean": 6765.16,
+      "median": 4995.0,
+      "min": 350.0,
+      "max": 15600.0
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "Random forest",
+      "cv_accuracy": 0.8885714285714285,
+      "test_accuracy": 0.8333333333333334,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "roc_auc": 0.875,
+      "best_params": "{\"model__max_depth\": 5, \"model__min_samples_leaf\": 1, \"model__n_estimators\": 200}"
+    },
+    {
+      "model": "KNN",
+      "cv_accuracy": 0.8761904761904761,
+      "test_accuracy": 0.8333333333333334,
+      "precision": 0.8461538461538461,
+      "recall": 0.9166666666666666,
+      "f1": 0.88,
+      "roc_auc": 0.8125,
+      "best_params": "{\"model__n_neighbors\": 3, \"model__weights\": \"distance\"}"
+    },
+    {
+      "model": "Logistic regression",
+      "cv_accuracy": 0.8485714285714285,
+      "test_accuracy": 0.7777777777777778,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.9027777777777779,
+      "best_params": "{\"model__C\": 0.1}"
+    },
+    {
+      "model": "SVM",
+      "cv_accuracy": 0.8885714285714286,
+      "test_accuracy": 0.7777777777777778,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.7777777777777778,
+      "best_params": "{\"model__C\": 1, \"model__kernel\": \"rbf\"}"
+    },
+    {
+      "model": "Decision tree",
+      "cv_accuracy": 0.8742857142857142,
+      "test_accuracy": 0.7777777777777778,
+      "precision": 0.7857142857142857,
+      "recall": 0.9166666666666666,
+      "f1": 0.8461538461538461,
+      "roc_auc": 0.8194444444444444,
+      "best_params": "{\"model__max_depth\": 4, \"model__min_samples_leaf\": 2}"
+    }
+  ],
+  "best_test_model": "Random forest",
+  "best_confusion_matrix_labels_0_1": [
+    [
+      3,
+      3
+    ],
+    [
+      0,
+      12
+    ]
+  ],
+  "test_size": 18,
+  "split": "stratified 80/20; random_state=42",
+  "cv": "5-fold stratified CV on training split",
+  "feature_importance_top10": [
+    {
+      "feature": "categorical__Legs_False",
+      "importance": 0.1902401779111774
+    },
+    {
+      "feature": "categorical__GridFins_True",
+      "importance": 0.1354048111601253
+    },
+    {
+      "feature": "categorical__Legs_True",
+      "importance": 0.13447218146135756
+    },
+    {
+      "feature": "numeric__ReusedCount",
+      "importance": 0.11791367027163117
+    },
+    {
+      "feature": "categorical__GridFins_False",
+      "importance": 0.10742776511332178
+    },
+    {
+      "feature": "numeric__PayloadMass",
+      "importance": 0.09587150718075238
+    },
+    {
+      "feature": "numeric__Block",
+      "importance": 0.08175497106151758
+    },
+    {
+      "feature": "numeric__Flights",
+      "importance": 0.022116222297589267
+    },
+    {
+      "feature": "categorical__Orbit_ISS",
+      "importance": 0.020847344656337207
+    },
+    {
+      "feature": "categorical__LaunchSite_CCAFS SLC 40",
+      "importance": 0.013659767074781233
+    }
+  ],
+  "sources": {
+    "api_snapshot": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json",
+    "part1": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv",
+    "part2": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv",
+    "wikipedia_revision": "https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922",
+    "api_docs": "https://github.com/r-spacex/SpaceX-API/blob/master/docs/launches/v4/all.md"
+  },
+  "note": "Class=1 denotes the curated dataset's successful first-stage landing label; Class=0 includes all other coded outcomes and is not limited to attempted landings."
+}
